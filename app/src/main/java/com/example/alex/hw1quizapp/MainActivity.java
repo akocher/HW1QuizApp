@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
     }
 
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void playQuiz(View view) {
         //TODO: Put to start game play activity
-        Intent hitPlay = new Intent(this,QuizPlayActivity.class);
+        Intent hitPlay = new Intent(this,QuizPlayActivitiy.class);
         startActivity(hitPlay);
     }
 
