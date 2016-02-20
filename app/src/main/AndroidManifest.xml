@@ -27,7 +27,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".QuizPlayActivitiy"
+            android:name=".QuizPlayActivity"
             android:label="@string/title_activity_quiz_play_activitiy"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

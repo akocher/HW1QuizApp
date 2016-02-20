@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class QuizPlayActivitiy extends AppCompatActivity implements QuizFragment1.OnFragmentInteractionListener {
+public class QuizPlayActivity extends AppCompatActivity implements QuizFragment1.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +29,6 @@ public class QuizPlayActivitiy extends AppCompatActivity implements QuizFragment
 
     @Override
     public void onFragmentInteraction(Uri uri) {
-        //this can be empty
+
     }
 }

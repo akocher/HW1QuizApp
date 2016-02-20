@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.hw1quizapp.QuizFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Glenn"
+        android:id="@+id/checkBox"
+        android:checked="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/checkBox3"
+        android:layout_alignStart="@+id/checkBox3"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edwin &quot;Buzz&quot; Alrin"
+        android:id="@+id/checkBox2"
+        android:checked="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Michael Collins"
+        android:id="@+id/checkBox3"
+        android:checked="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neil Armstrong"
+        android:id="@+id/checkBox4"
+        android:checked="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/checkBox3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alan Shepard"
+        android:id="@+id/checkBox5"
+        android:checked="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:textSize="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Which of the follow were the astronauts on Apollo Mission 11?"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:id="@+id/button3"
+        android:width="200dp"
+        android:height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp" />
+</RelativeLayout>
