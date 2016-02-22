@@ -101,7 +101,7 @@ public class QuizFragment2 extends Fragment {
         alertDialogBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                startActivity(new Intent(getActivity(),MainActivity.class));
+                getActivity().finish();
             }
         });
         AlertDialog alertDialog = alertDialogBuilder.create();

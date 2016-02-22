@@ -35,7 +35,7 @@ public class QuizFragment1 extends Fragment{
 
                         getFragmentManager().beginTransaction()
                                .replace(R.id.fragment_container, new QuizFragment2().newInstance(q1correct)).commit();
-                        getFragmentManager().beginTransaction().addToBackStack(null);
+                        //getFragmentManager().beginTransaction().addToBackStack(null);
 
                     }
                 }
