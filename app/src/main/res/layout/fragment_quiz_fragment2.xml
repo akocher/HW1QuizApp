@@ -4,8 +4,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.alex.hw1quizapp.QuizFragment2">
 
-    <!-- TODO: Update blank fragment layout -->
-
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,7 +88,7 @@
         android:layout_height="wrap_content"
         android:text="Submit"
         android:textSize="25dp"
-        android:id="@+id/button3"
+        android:id="@+id/submitQ2"
         android:width="200dp"
         android:height="80dp"
         android:layout_alignParentBottom="true"
